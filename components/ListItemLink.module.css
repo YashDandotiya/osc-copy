@@ -1,0 +1,35 @@
+/* components/ListItemLink.module.css */
+.listItem {
+    margin: 10px 10px 0;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: auto;
+    color: #f2f2f2;
+}
+
+.listItem:hover,
+.listItem:focus {
+    background: rgba(255, 255, 255, 0.13);
+    opacity: 1;
+}
+
+.listIcon {
+    color: #f2f2f2;
+    margin-right: 8px;
+}
+
+.listLink {
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.listText {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
